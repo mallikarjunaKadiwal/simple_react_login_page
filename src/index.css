@@ -1,0 +1,107 @@
+
+body {
+    background-color: #d5d5db;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    color: #201f1f;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    text-align: left;
+}
+
+form h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span:hover {
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(14, 14, 14, 0.3);
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 10px;
+}
+
+.password-container span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+label {
+    font-weight: 600;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.gender-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gender-container label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gender-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
